@@ -37,7 +37,7 @@ sudo systemctl restart NetworkManager
 # Core utils
 sudo apt-get install git
 
-# Gnome Remote Desktop
+# Gnome Remote Desktop [ TODO ]
 sudo systemctl set-default graphical.target
 sudo reboot
 # sudo nano /etc/gdm3/custom.conf

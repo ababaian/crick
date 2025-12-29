@@ -37,6 +37,9 @@ sudo systemctl restart NetworkManager
 # Core utils
 sudo apt-get install git
 
+# Disable cloud-init
+sudo touch /etc/cloud/cloud-init.disabled
+
 # Gnome Remote Desktop [ TODO ]
 sudo systemctl set-default graphical.target
 sudo reboot

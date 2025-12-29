@@ -1,3 +1,10 @@
+# Do not store local files
+*LOCAL*
+*Local*
+*local*
+
 # Size/CR
 Videos/*
 Modules/ROMS/*
+
+_Trash/*

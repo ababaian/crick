@@ -1,0 +1,7 @@
+- JOB: >
+    /usr/local/bin/evsieve
+    --input $DEVNODE grab
+    --hook key:a exec-shell="touch $HOME/Desktop/tmp"
+  DEVICE:
+    EVENTS:
+      EV_KEY: [KEY_A]

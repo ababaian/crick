@@ -8,6 +8,7 @@
 .gnupg/*
 .local/*
 .ssh/*
+snap
 
 # Do not store local files
 *LOCAL*

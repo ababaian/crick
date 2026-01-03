@@ -237,11 +237,22 @@ sudo apt install -y \
 # ============================================================
 # See: https://docs.libretro.com/guides/core-list/#
 
+# Input/Output
+sudo apt install -y \
+  joystick \
+  evtest \
+  qjoypad
+
 # mupen64plus-qt Needs work
+
+# SNES9x emulator
+wget https://github.com/snes9xgit/snes9x/releases/download/1.63/Snes9x-1.63-x86_64.AppImage
+mv Snes9x-1.63-x86_64.AppImage snes9x
+chmod 755 snes9x
+mv snes9x /usr/games/
 
 # higen SNES emulator
 sudo apt install libgtksourceview2.0-0
-
 
 # wget https://github.com/higan-emu/higan/releases/download/v110/higan-v110-linux-x86_64.zip
 # unzip higan-v110-linux-x86_64.zi
@@ -251,11 +262,6 @@ sudo cp higan-nightly/icarus /usr/games/
 sudo cp higan-nightly/genius /usr/games/
 # /usr/games/ (Run which mupen64plus and move icarus higen and genius to that dir)
 
-# Input/Output
-sudo apt install -y \
-  joystick \
-  evtest \
-  qjoypad
 
 # DOOM
 mkdir -p ~/doom; cd ~/doom

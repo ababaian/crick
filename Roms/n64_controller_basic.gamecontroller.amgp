@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="19" appversion="3.1.4">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Logitech F310 Gamepad (XInput)</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030000006d0400001dc2000014400000113349693</uniqueID>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
+    <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <vdpadButtonAssociations index="1">
+        <vdpadButtonAssociation axis="0" button="12" direction="1"/>
+        <vdpadButtonAssociation axis="0" button="13" direction="4"/>
+        <vdpadButtonAssociation axis="0" button="14" direction="8"/>
+        <vdpadButtonAssociation axis="0" button="15" direction="2"/>
+    </vdpadButtonAssociations>
+    <names>
+        <controlstickname index="1">L Stick</controlstickname>
+        <controlstickname index="2">R Stick</controlstickname>
+    </names>
+    <sets>
+        <set index="1">
+            <stick index="1">
+                <deadZone>13621</deadZone>
+                <maxZone>26086</maxZone>
+                <calibrated>true</calibrated>
+                <summary>
+
+Center X: 0
+Center Y: 0
+
+X: -26086
+Y: -32767
+
+X: 27627
+Y: 28398
+
+range X: -26086 - 26086
+range Y: -28398 - 28398
+
+deadzone X: 13621
+deadzone Y: 13621</summary>
+            </stick>
+            <stick index="2">
+                <deadZone>11757</deadZone>
+                <maxZone>32510</maxZone>
+                <calibrated>true</calibrated>
+                <summary>
+
+Center X: 0
+Center Y: 0
+
+X: -32767
+Y: -14521
+
+X: 32510
+Y: 27884
+
+range X: -32510 - 32510
+range Y: -14521 - 14521
+
+deadzone X: 11757
+deadzone Y: 11757</summary>
+            </stick>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+        </set>
+    </sets>
+</gamecontroller>

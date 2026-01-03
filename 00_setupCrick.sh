@@ -235,10 +235,23 @@ sudo apt install -y \
 # ============================================================
 # GAMING
 # ============================================================
+# See: https://docs.libretro.com/guides/core-list/#
 
 # mupen64plus-qt Needs work
 
-# Input controllers
+# higen SNES emulator
+sudo apt install libgtksourceview2.0-0
+
+
+# wget https://github.com/higan-emu/higan/releases/download/v110/higan-v110-linux-x86_64.zip
+# unzip higan-v110-linux-x86_64.zi
+# unzip higan-nightly
+sudo cp higan-nightly/higan /usr/games/
+sudo cp higan-nightly/icarus /usr/games/
+sudo cp higan-nightly/genius /usr/games/
+# /usr/games/ (Run which mupen64plus and move icarus higen and genius to that dir)
+
+# Input/Output
 sudo apt install -y \
   joystick \
   evtest \

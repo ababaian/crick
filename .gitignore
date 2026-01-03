@@ -1,3 +1,14 @@
+# System files
+.bash_history
+.bash_logout
+.cache
+.pam_environment
+.cache/*
+.config/*
+.gnupg/*
+.local/*
+.ssh/*
+
 # Do not store local files
 *LOCAL*
 *Local*
@@ -8,5 +19,12 @@ Videos/*
 Music/*
 Roms/n64/*
 Roms/snes/*
+
+# Extra piPET files (choose 4 from 220)
+# Download from https://www.rcsb.org/
+Modules/piPET/pdbset/*
+Modules/piPET/testset/*
+Modules/piPET/gif_dot/*
+Modules/piPET/gif_line/*
 
 _Trash/*
